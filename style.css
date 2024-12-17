@@ -1,0 +1,72 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d212a;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+*{
+    font-family: "Comfortaa", Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5svw;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+main{
+    background-color: #232935;
+    width: 20%;
+    min-height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+label{
+    margin-bottom: 10%;
+    width: 100%;
+}
+input,button{
+    text-align: center;
+    background-color: #1d212a;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+}
+input{
+    margin:10% 0;
+}
+button{
+    margin-top:10%;
+}
+button:hover,input[type=submit]:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+hr{
+    box-sizing: border-box;
+    width: 80%;
+    border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 900px) {
+    main{
+        width: 80%;
+        padding: 5%;
+    }
+    *{
+        font-size: 5svw;
+    }
+
+  }
