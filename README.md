@@ -1,1 +1,1 @@
-Baza powinna nazywać się rpg ibrażenia i inne rzeczy mogą być nie zbalansowane
+Baza powinna nazywać się rpg obrażenia i inne rzeczy mogą być nie zbalansowane
